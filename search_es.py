@@ -1,6 +1,7 @@
 import json
 import time
 
+from pprint import pprint
 from elasticsearch import Elasticsearch
 
 
@@ -58,6 +59,10 @@ if __name__ == "__main__":
     start = time.time()
     result = es.search(index='recipes', body=query, size=5)
     end = time.time()
-
-    print(json.dumps(result, indent=2))
-    print(f"Search took {end-start} seconds")
+    
+    print(type(result['hits']['hits']))
+    for hit in result['hits']['hits']:
+        pprint(hit)
+        print()
+    # print(json.dumps(result, indent=2))
+    # print(f"Search took {end-start} seconds")
