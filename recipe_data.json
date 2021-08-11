@@ -1,0 +1,10 @@
+{ "create" : { "_index" : "veggies2", "_type" : "_doc", "_id" : "7"  } }
+{ "name":"kale", "color":"green", "classification":"leafy-green" }
+{ "create" : { "_index" : "veggies2", "_type" : "_doc", "_id" : "8" } }
+{ "name":"spinach", "color":"green", "classification":"leafy-green" }
+{ "create" : { "_index" : "veggies2", "_type" : "_doc", "_id" : "9" } }
+{ "name":"arugula", "color":"green", "classification":"leafy-green" }
+{ "create" : { "_index" : "veggies2", "_type" : "_doc", "_id" : "10" } }
+{ "name":"endive", "color":"green", "classification":"leafy-green" }
+{ "create" : { "_index" : "veggies2", "_type" : "_doc", "_id" : "11" } }
+{ "name":"lettuce", "color":"green", "classification":"leafy-green" }

@@ -1,0 +1,8 @@
+{
+    "query" : {
+      "term": { "color": "green" }
+    },
+    "sort" : [
+        "classification"
+    ]
+  }
